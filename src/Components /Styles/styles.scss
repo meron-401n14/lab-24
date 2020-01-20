@@ -1,0 +1,18 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import '_mixin';
+
+.btn {
+  color:white;
+  text-decoration:none;
+  padding:5px 10px;
+  border-radius:3px;
+  font-family: 'Poiret One', cursive;
+  font-size:1em;
+ }
+
+ .btn-green {
+  @include button-bg(#2ecc71);
+}
+
+

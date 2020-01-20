@@ -7,15 +7,15 @@ function AboutmeConsumer () {
   const context= useContext(ThemeContext);
 
   return (
+
     <div style={{
-      backgroundColor:context.background,
+      backgroundColor:context.backgroundColor,
       color:context.color,
       padding:context.padding + 'px',
-    }}
-    
-     
-    
-    > 
+      boarder:context.boarder,
+      borderRadius:context.borderRadius,
+    }} > 
+
     {context.lang === 'en' ? <div>
     <h1>Hello,</h1>
     <p>I am Meron Sibani</p>
@@ -32,7 +32,7 @@ function AboutmeConsumer () {
     </div>
   );
 }
-
+    
 
 
 export default AboutmeConsumer;

@@ -10,18 +10,29 @@ function GetThem(props){
       },
 
       updateBackground: newBackground=>{
-                  setState(state => ({...state, background:newBackground}));
+                  setState(state => ({...state, backgroundColor:newBackground}));
       },
       updatePadding: newPadding => {
         setState(state => ({...state, padding:newPadding}));
       },
 
+      updateBorder:newBorder=>{
+                setState(state=>({...state, border:newBorder}));
+      },
+
       updateLang: newLang => {
           setState(state=> ({ ...state, lang: newLang}));
       },
-      padding:20,
-      color: 'white',
-      background:'blue',
+
+      updateborderRadius:newbr=>{
+        setState(state=>({...state,  borderRadius:newbr}));
+      },
+      padding:'20',
+      color: '',
+      backgroundColor:'cyan',
+      border:'1px solid #E25F3C',
+      borderRadius:'1rem',
+
       lang:'en'
     });
     
