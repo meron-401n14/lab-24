@@ -8,9 +8,9 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
+- [submission PR](https://github.com/meron-401n14/lab-24/tree/master/)
 - [travis](http://xyz.com)
-- [codesandBox](https://codesandbox.io/s/focused-fermi-gm1cp)
+- [codesandBox](https://codesandbox.io/s/magical-sanderson-d56ym)
 
 #### Documentation
 
